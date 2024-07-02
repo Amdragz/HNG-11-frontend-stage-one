@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  background: #003a68; 
+  align-items: center;
+  justify-content: center;
+  color: #5f6972;
+}
+
+header, footer {
+  max-width: 650px;
+}
+
+h3, p, a, h1, li {
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+}
+
+a, [data-testid="slackEmail"] {
+  text-decoration: none;
+  color: #386aba;
+  transition: all 0.5s linear;
+}
+
+a:hover {
+ opacity: 0.7;
+}
+
+a:active {
+  color: #a1926a;
+}
+
+P {
+  margin-bottom: 10px;
+}
+
+[data-testid="slackDisplayName"] {
+  color: #1a1a23;
+}
+
+[data-testid="currentTimeUTC"] {
+  color: blue;
+}
+
+[data-testid="currentDay"] {
+  color: red;
+}
+
+.info-header h1 {
+  text-align: center;
+  color: #a1926a;
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+
+.info-container {
+  width: 90%;
+  max-width: 650px;
+  margin-top: 1rem;
+  background-color: #eff7ff;
+  border-radius: 20px;
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  box-shadow: 5px 5px 10px rgba(232, 205, 126, 0.5);
+  font-family: 'Lato', sans-serif;
+}
+
+.info__context > *{
+  text-align: center;
+}
+
+.personal-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.goals ul li {
+  color:#3d444a;
+}
+
+ 
+

@@ -6,7 +6,7 @@
 
 body {
   display: flex;
-  height: 100%;
+  min-height: 100svh;
   background: #003a68; 
   align-items: center;
   justify-content: center;
@@ -87,6 +87,5 @@ P {
 .goals ul li {
   color:#3d444a;
 }
-
  
 
